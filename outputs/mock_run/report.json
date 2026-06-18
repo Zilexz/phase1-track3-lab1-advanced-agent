@@ -1,0 +1,3006 @@
+{
+  "meta": {
+    "dataset": "benchmark.json",
+    "mode": "mock",
+    "num_records": 294,
+    "agents": [
+      "react",
+      "reflexion"
+    ]
+  },
+  "summary": {
+    "react": {
+      "count": 147,
+      "em": 0.9728,
+      "avg_attempts": 1,
+      "avg_token_estimate": 464,
+      "avg_latency_ms": 240
+    },
+    "reflexion": {
+      "count": 147,
+      "em": 1.0,
+      "avg_attempts": 1.0272,
+      "avg_token_estimate": 483.7,
+      "avg_latency_ms": 250.34
+    },
+    "delta_reflexion_minus_react": {
+      "em_abs": 0.0272,
+      "attempts_abs": 0.0272,
+      "tokens_abs": 19.7,
+      "latency_abs": 10.34
+    }
+  },
+  "failure_modes": {
+    "none": {
+      "total": 290,
+      "react": 143,
+      "reflexion": 147
+    },
+    "entity_drift": {
+      "total": 2,
+      "react": 2,
+      "reflexion": 0
+    },
+    "incomplete_multi_hop": {
+      "total": 1,
+      "react": 1,
+      "reflexion": 0
+    },
+    "wrong_final_answer": {
+      "total": 1,
+      "react": 1,
+      "reflexion": 0
+    }
+  },
+  "examples": [
+    {
+      "qid": "hp1",
+      "agent_type": "react",
+      "gold_answer": "Oxford University",
+      "predicted_answer": "Oxford University",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp2",
+      "agent_type": "react",
+      "gold_answer": "River Thames",
+      "predicted_answer": "London",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "incomplete_multi_hop",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp3",
+      "agent_type": "react",
+      "gold_answer": "violin",
+      "predicted_answer": "violin",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp4",
+      "agent_type": "react",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "Atlantic Ocean",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp5",
+      "agent_type": "react",
+      "gold_answer": "mathematics",
+      "predicted_answer": "mathematics",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp6",
+      "agent_type": "react",
+      "gold_answer": "Dead Sea",
+      "predicted_answer": "Red Sea",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "entity_drift",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp7",
+      "agent_type": "react",
+      "gold_answer": "Romance",
+      "predicted_answer": "Romance",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp8",
+      "agent_type": "react",
+      "gold_answer": "Himalayas",
+      "predicted_answer": "Andes",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "entity_drift",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen001",
+      "agent_type": "react",
+      "gold_answer": "Atlantic Ocean",
+      "predicted_answer": "Atlantic Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen002",
+      "agent_type": "react",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen003",
+      "agent_type": "react",
+      "gold_answer": "the euro",
+      "predicted_answer": "the euro",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen004",
+      "agent_type": "react",
+      "gold_answer": "Mediterranean Sea",
+      "predicted_answer": "Mediterranean Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen005",
+      "agent_type": "react",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen006",
+      "agent_type": "react",
+      "gold_answer": "the euro",
+      "predicted_answer": "the euro",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen007",
+      "agent_type": "react",
+      "gold_answer": "Mediterranean Sea",
+      "predicted_answer": "Mediterranean Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen008",
+      "agent_type": "react",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen009",
+      "agent_type": "react",
+      "gold_answer": "the euro",
+      "predicted_answer": "the euro",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen010",
+      "agent_type": "react",
+      "gold_answer": "Atlantic Ocean",
+      "predicted_answer": "Atlantic Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen011",
+      "agent_type": "react",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen012",
+      "agent_type": "react",
+      "gold_answer": "the euro",
+      "predicted_answer": "the euro",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen013",
+      "agent_type": "react",
+      "gold_answer": "Baltic Sea",
+      "predicted_answer": "Baltic Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen014",
+      "agent_type": "react",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen015",
+      "agent_type": "react",
+      "gold_answer": "the euro",
+      "predicted_answer": "the euro",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen016",
+      "agent_type": "react",
+      "gold_answer": "North Sea",
+      "predicted_answer": "North Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen017",
+      "agent_type": "react",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen018",
+      "agent_type": "react",
+      "gold_answer": "the Norwegian krone",
+      "predicted_answer": "the Norwegian krone",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen019",
+      "agent_type": "react",
+      "gold_answer": "Baltic Sea",
+      "predicted_answer": "Baltic Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen020",
+      "agent_type": "react",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen021",
+      "agent_type": "react",
+      "gold_answer": "the Swedish krona",
+      "predicted_answer": "the Swedish krona",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen022",
+      "agent_type": "react",
+      "gold_answer": "North Sea",
+      "predicted_answer": "North Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen023",
+      "agent_type": "react",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen024",
+      "agent_type": "react",
+      "gold_answer": "the euro",
+      "predicted_answer": "the euro",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen025",
+      "agent_type": "react",
+      "gold_answer": "Aegean Sea",
+      "predicted_answer": "Aegean Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen026",
+      "agent_type": "react",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen027",
+      "agent_type": "react",
+      "gold_answer": "the euro",
+      "predicted_answer": "the euro",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen028",
+      "agent_type": "react",
+      "gold_answer": "Baltic Sea",
+      "predicted_answer": "Baltic Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen029",
+      "agent_type": "react",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen030",
+      "agent_type": "react",
+      "gold_answer": "the Polish zloty",
+      "predicted_answer": "the Polish zloty",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen031",
+      "agent_type": "react",
+      "gold_answer": "Atlantic Ocean",
+      "predicted_answer": "Atlantic Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen032",
+      "agent_type": "react",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen033",
+      "agent_type": "react",
+      "gold_answer": "the Icelandic krona",
+      "predicted_answer": "the Icelandic krona",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen034",
+      "agent_type": "react",
+      "gold_answer": "Baltic Sea",
+      "predicted_answer": "Baltic Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen035",
+      "agent_type": "react",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen036",
+      "agent_type": "react",
+      "gold_answer": "the euro",
+      "predicted_answer": "the euro",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen037",
+      "agent_type": "react",
+      "gold_answer": "Red Sea",
+      "predicted_answer": "Red Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen038",
+      "agent_type": "react",
+      "gold_answer": "Africa",
+      "predicted_answer": "Africa",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen039",
+      "agent_type": "react",
+      "gold_answer": "the Egyptian pound",
+      "predicted_answer": "the Egyptian pound",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen040",
+      "agent_type": "react",
+      "gold_answer": "Indian Ocean",
+      "predicted_answer": "Indian Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen041",
+      "agent_type": "react",
+      "gold_answer": "Africa",
+      "predicted_answer": "Africa",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen042",
+      "agent_type": "react",
+      "gold_answer": "the Kenyan shilling",
+      "predicted_answer": "the Kenyan shilling",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen043",
+      "agent_type": "react",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "Pacific Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen044",
+      "agent_type": "react",
+      "gold_answer": "Asia",
+      "predicted_answer": "Asia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen045",
+      "agent_type": "react",
+      "gold_answer": "the Japanese yen",
+      "predicted_answer": "the Japanese yen",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen046",
+      "agent_type": "react",
+      "gold_answer": "South China Sea",
+      "predicted_answer": "South China Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen047",
+      "agent_type": "react",
+      "gold_answer": "Asia",
+      "predicted_answer": "Asia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen048",
+      "agent_type": "react",
+      "gold_answer": "the Vietnamese dong",
+      "predicted_answer": "the Vietnamese dong",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen049",
+      "agent_type": "react",
+      "gold_answer": "Indian Ocean",
+      "predicted_answer": "Indian Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen050",
+      "agent_type": "react",
+      "gold_answer": "Asia",
+      "predicted_answer": "Asia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen051",
+      "agent_type": "react",
+      "gold_answer": "the Indian rupee",
+      "predicted_answer": "the Indian rupee",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen052",
+      "agent_type": "react",
+      "gold_answer": "Gulf of Thailand",
+      "predicted_answer": "Gulf of Thailand",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen053",
+      "agent_type": "react",
+      "gold_answer": "Asia",
+      "predicted_answer": "Asia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen054",
+      "agent_type": "react",
+      "gold_answer": "the Thai baht",
+      "predicted_answer": "the Thai baht",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen055",
+      "agent_type": "react",
+      "gold_answer": "Red Sea",
+      "predicted_answer": "Red Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen056",
+      "agent_type": "react",
+      "gold_answer": "Asia",
+      "predicted_answer": "Asia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen057",
+      "agent_type": "react",
+      "gold_answer": "the Jordanian dinar",
+      "predicted_answer": "the Jordanian dinar",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen058",
+      "agent_type": "react",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "Pacific Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen059",
+      "agent_type": "react",
+      "gold_answer": "South America",
+      "predicted_answer": "South America",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen060",
+      "agent_type": "react",
+      "gold_answer": "the Peruvian sol",
+      "predicted_answer": "the Peruvian sol",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen061",
+      "agent_type": "react",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "Pacific Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen062",
+      "agent_type": "react",
+      "gold_answer": "South America",
+      "predicted_answer": "South America",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen063",
+      "agent_type": "react",
+      "gold_answer": "the Chilean peso",
+      "predicted_answer": "the Chilean peso",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen064",
+      "agent_type": "react",
+      "gold_answer": "Atlantic Ocean",
+      "predicted_answer": "Atlantic Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen065",
+      "agent_type": "react",
+      "gold_answer": "South America",
+      "predicted_answer": "South America",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen066",
+      "agent_type": "react",
+      "gold_answer": "the Brazilian real",
+      "predicted_answer": "the Brazilian real",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen067",
+      "agent_type": "react",
+      "gold_answer": "Atlantic Ocean",
+      "predicted_answer": "Atlantic Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen068",
+      "agent_type": "react",
+      "gold_answer": "South America",
+      "predicted_answer": "South America",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen069",
+      "agent_type": "react",
+      "gold_answer": "the Argentine peso",
+      "predicted_answer": "the Argentine peso",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen070",
+      "agent_type": "react",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "Pacific Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen071",
+      "agent_type": "react",
+      "gold_answer": "North America",
+      "predicted_answer": "North America",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen072",
+      "agent_type": "react",
+      "gold_answer": "the Mexican peso",
+      "predicted_answer": "the Mexican peso",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen073",
+      "agent_type": "react",
+      "gold_answer": "Atlantic Ocean",
+      "predicted_answer": "Atlantic Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen074",
+      "agent_type": "react",
+      "gold_answer": "North America",
+      "predicted_answer": "North America",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen075",
+      "agent_type": "react",
+      "gold_answer": "the Canadian dollar",
+      "predicted_answer": "the Canadian dollar",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen076",
+      "agent_type": "react",
+      "gold_answer": "Romance",
+      "predicted_answer": "Romance",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen077",
+      "agent_type": "react",
+      "gold_answer": "Romance",
+      "predicted_answer": "Romance",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen078",
+      "agent_type": "react",
+      "gold_answer": "Romance",
+      "predicted_answer": "Romance",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen079",
+      "agent_type": "react",
+      "gold_answer": "Romance",
+      "predicted_answer": "Romance",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen080",
+      "agent_type": "react",
+      "gold_answer": "Romance",
+      "predicted_answer": "Romance",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen081",
+      "agent_type": "react",
+      "gold_answer": "Germanic",
+      "predicted_answer": "Germanic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen082",
+      "agent_type": "react",
+      "gold_answer": "Germanic",
+      "predicted_answer": "Germanic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen083",
+      "agent_type": "react",
+      "gold_answer": "Germanic",
+      "predicted_answer": "Germanic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen084",
+      "agent_type": "react",
+      "gold_answer": "Germanic",
+      "predicted_answer": "Germanic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen085",
+      "agent_type": "react",
+      "gold_answer": "Germanic",
+      "predicted_answer": "Germanic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen086",
+      "agent_type": "react",
+      "gold_answer": "Hellenic",
+      "predicted_answer": "Hellenic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen087",
+      "agent_type": "react",
+      "gold_answer": "Slavic",
+      "predicted_answer": "Slavic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen088",
+      "agent_type": "react",
+      "gold_answer": "Semitic",
+      "predicted_answer": "Semitic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen089",
+      "agent_type": "react",
+      "gold_answer": "Semitic",
+      "predicted_answer": "Semitic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen090",
+      "agent_type": "react",
+      "gold_answer": "Japonic",
+      "predicted_answer": "Japonic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen091",
+      "agent_type": "react",
+      "gold_answer": "Austroasiatic",
+      "predicted_answer": "Austroasiatic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen092",
+      "agent_type": "react",
+      "gold_answer": "Uralic",
+      "predicted_answer": "Uralic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen093",
+      "agent_type": "react",
+      "gold_answer": "Indo-Aryan",
+      "predicted_answer": "Indo-Aryan",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen094",
+      "agent_type": "react",
+      "gold_answer": "Oxford University",
+      "predicted_answer": "Oxford University",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen095",
+      "agent_type": "react",
+      "gold_answer": "the Modder River",
+      "predicted_answer": "the Modder River",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen096",
+      "agent_type": "react",
+      "gold_answer": "Cambridge University",
+      "predicted_answer": "Cambridge University",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen097",
+      "agent_type": "react",
+      "gold_answer": "the River Lagan",
+      "predicted_answer": "the River Lagan",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen098",
+      "agent_type": "react",
+      "gold_answer": "Oxford University",
+      "predicted_answer": "Oxford University",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen099",
+      "agent_type": "react",
+      "gold_answer": "the River Mersey",
+      "predicted_answer": "the River Mersey",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen100",
+      "agent_type": "react",
+      "gold_answer": "the University of Bologna",
+      "predicted_answer": "the University of Bologna",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen101",
+      "agent_type": "react",
+      "gold_answer": "the Tanaro River",
+      "predicted_answer": "the Tanaro River",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen102",
+      "agent_type": "react",
+      "gold_answer": "the University of Exeter",
+      "predicted_answer": "the University of Exeter",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen103",
+      "agent_type": "react",
+      "gold_answer": "the River Frome",
+      "predicted_answer": "the River Frome",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen104",
+      "agent_type": "react",
+      "gold_answer": "violin",
+      "predicted_answer": "violin",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen105",
+      "agent_type": "react",
+      "gold_answer": "piano",
+      "predicted_answer": "piano",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen106",
+      "agent_type": "react",
+      "gold_answer": "violin",
+      "predicted_answer": "violin",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen107",
+      "agent_type": "react",
+      "gold_answer": "piano",
+      "predicted_answer": "piano",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen108",
+      "agent_type": "react",
+      "gold_answer": "cello",
+      "predicted_answer": "cello",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen109",
+      "agent_type": "react",
+      "gold_answer": "trumpet",
+      "predicted_answer": "trumpet",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen110",
+      "agent_type": "react",
+      "gold_answer": "Paris",
+      "predicted_answer": "Paris",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen111",
+      "agent_type": "react",
+      "gold_answer": "New York City",
+      "predicted_answer": "New York City",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen112",
+      "agent_type": "react",
+      "gold_answer": "The Hague",
+      "predicted_answer": "The Hague",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen113",
+      "agent_type": "react",
+      "gold_answer": "Madrid",
+      "predicted_answer": "Madrid",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen114",
+      "agent_type": "react",
+      "gold_answer": "Florence",
+      "predicted_answer": "Florence",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen115",
+      "agent_type": "react",
+      "gold_answer": "mathematics",
+      "predicted_answer": "mathematics",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen116",
+      "agent_type": "react",
+      "gold_answer": "philosophy of science",
+      "predicted_answer": "philosophy of science",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen117",
+      "agent_type": "react",
+      "gold_answer": "chemistry",
+      "predicted_answer": "chemistry",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen118",
+      "agent_type": "react",
+      "gold_answer": "mathematics",
+      "predicted_answer": "mathematics",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen119",
+      "agent_type": "react",
+      "gold_answer": "cryptanalysis",
+      "predicted_answer": "cryptanalysis",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen120",
+      "agent_type": "react",
+      "gold_answer": "Akerselva",
+      "predicted_answer": "Akerselva",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen121",
+      "agent_type": "react",
+      "gold_answer": "Switzerland",
+      "predicted_answer": "Switzerland",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen122",
+      "agent_type": "react",
+      "gold_answer": "Parana",
+      "predicted_answer": "Parana",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen123",
+      "agent_type": "react",
+      "gold_answer": "the Andes",
+      "predicted_answer": "the Andes",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen124",
+      "agent_type": "react",
+      "gold_answer": "Fyodor Dostoevsky",
+      "predicted_answer": "Fyodor Dostoevsky",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen125",
+      "agent_type": "react",
+      "gold_answer": "Dmitri Mendeleev",
+      "predicted_answer": "Dmitri Mendeleev",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen126",
+      "agent_type": "react",
+      "gold_answer": "31 years",
+      "predicted_answer": "31 years",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen127",
+      "agent_type": "react",
+      "gold_answer": "Brasilia",
+      "predicted_answer": "Brasilia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen128",
+      "agent_type": "react",
+      "gold_answer": "Canberra",
+      "predicted_answer": "Canberra",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen129",
+      "agent_type": "react",
+      "gold_answer": "Ankara",
+      "predicted_answer": "Ankara",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen130",
+      "agent_type": "react",
+      "gold_answer": "the Arabian Sea",
+      "predicted_answer": "the Arabian Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen131",
+      "agent_type": "react",
+      "gold_answer": "Portugal",
+      "predicted_answer": "Portugal",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen132",
+      "agent_type": "react",
+      "gold_answer": "the Nile",
+      "predicted_answer": "the Nile",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen133",
+      "agent_type": "react",
+      "gold_answer": "Kangchenjunga",
+      "predicted_answer": "Kangchenjunga",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen134",
+      "agent_type": "react",
+      "gold_answer": "the Statue of Liberty",
+      "predicted_answer": "the Statue of Liberty",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen135",
+      "agent_type": "react",
+      "gold_answer": "John Adams",
+      "predicted_answer": "John Adams",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen136",
+      "agent_type": "react",
+      "gold_answer": "the Pacific Ocean",
+      "predicted_answer": "the Pacific Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen137",
+      "agent_type": "react",
+      "gold_answer": "Romani",
+      "predicted_answer": "Romani",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen138",
+      "agent_type": "react",
+      "gold_answer": "piano",
+      "predicted_answer": "piano",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen139",
+      "agent_type": "react",
+      "gold_answer": "Tokyo",
+      "predicted_answer": "Tokyo",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp1",
+      "agent_type": "reflexion",
+      "gold_answer": "Oxford University",
+      "predicted_answer": "Oxford University",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp2",
+      "agent_type": "reflexion",
+      "gold_answer": "River Thames",
+      "predicted_answer": "River Thames",
+      "is_correct": true,
+      "attempts": 2,
+      "failure_mode": "none",
+      "reflection_count": 1
+    },
+    {
+      "qid": "hp3",
+      "agent_type": "reflexion",
+      "gold_answer": "violin",
+      "predicted_answer": "violin",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp4",
+      "agent_type": "reflexion",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "Pacific Ocean",
+      "is_correct": true,
+      "attempts": 2,
+      "failure_mode": "none",
+      "reflection_count": 1
+    },
+    {
+      "qid": "hp5",
+      "agent_type": "reflexion",
+      "gold_answer": "mathematics",
+      "predicted_answer": "mathematics",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp6",
+      "agent_type": "reflexion",
+      "gold_answer": "Dead Sea",
+      "predicted_answer": "Dead Sea",
+      "is_correct": true,
+      "attempts": 2,
+      "failure_mode": "none",
+      "reflection_count": 1
+    },
+    {
+      "qid": "hp7",
+      "agent_type": "reflexion",
+      "gold_answer": "Romance",
+      "predicted_answer": "Romance",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp8",
+      "agent_type": "reflexion",
+      "gold_answer": "Himalayas",
+      "predicted_answer": "Himalayas",
+      "is_correct": true,
+      "attempts": 2,
+      "failure_mode": "none",
+      "reflection_count": 1
+    },
+    {
+      "qid": "gen001",
+      "agent_type": "reflexion",
+      "gold_answer": "Atlantic Ocean",
+      "predicted_answer": "Atlantic Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen002",
+      "agent_type": "reflexion",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen003",
+      "agent_type": "reflexion",
+      "gold_answer": "the euro",
+      "predicted_answer": "the euro",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen004",
+      "agent_type": "reflexion",
+      "gold_answer": "Mediterranean Sea",
+      "predicted_answer": "Mediterranean Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen005",
+      "agent_type": "reflexion",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen006",
+      "agent_type": "reflexion",
+      "gold_answer": "the euro",
+      "predicted_answer": "the euro",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen007",
+      "agent_type": "reflexion",
+      "gold_answer": "Mediterranean Sea",
+      "predicted_answer": "Mediterranean Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen008",
+      "agent_type": "reflexion",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen009",
+      "agent_type": "reflexion",
+      "gold_answer": "the euro",
+      "predicted_answer": "the euro",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen010",
+      "agent_type": "reflexion",
+      "gold_answer": "Atlantic Ocean",
+      "predicted_answer": "Atlantic Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen011",
+      "agent_type": "reflexion",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen012",
+      "agent_type": "reflexion",
+      "gold_answer": "the euro",
+      "predicted_answer": "the euro",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen013",
+      "agent_type": "reflexion",
+      "gold_answer": "Baltic Sea",
+      "predicted_answer": "Baltic Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen014",
+      "agent_type": "reflexion",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen015",
+      "agent_type": "reflexion",
+      "gold_answer": "the euro",
+      "predicted_answer": "the euro",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen016",
+      "agent_type": "reflexion",
+      "gold_answer": "North Sea",
+      "predicted_answer": "North Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen017",
+      "agent_type": "reflexion",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen018",
+      "agent_type": "reflexion",
+      "gold_answer": "the Norwegian krone",
+      "predicted_answer": "the Norwegian krone",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen019",
+      "agent_type": "reflexion",
+      "gold_answer": "Baltic Sea",
+      "predicted_answer": "Baltic Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen020",
+      "agent_type": "reflexion",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen021",
+      "agent_type": "reflexion",
+      "gold_answer": "the Swedish krona",
+      "predicted_answer": "the Swedish krona",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen022",
+      "agent_type": "reflexion",
+      "gold_answer": "North Sea",
+      "predicted_answer": "North Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen023",
+      "agent_type": "reflexion",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen024",
+      "agent_type": "reflexion",
+      "gold_answer": "the euro",
+      "predicted_answer": "the euro",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen025",
+      "agent_type": "reflexion",
+      "gold_answer": "Aegean Sea",
+      "predicted_answer": "Aegean Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen026",
+      "agent_type": "reflexion",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen027",
+      "agent_type": "reflexion",
+      "gold_answer": "the euro",
+      "predicted_answer": "the euro",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen028",
+      "agent_type": "reflexion",
+      "gold_answer": "Baltic Sea",
+      "predicted_answer": "Baltic Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen029",
+      "agent_type": "reflexion",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen030",
+      "agent_type": "reflexion",
+      "gold_answer": "the Polish zloty",
+      "predicted_answer": "the Polish zloty",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen031",
+      "agent_type": "reflexion",
+      "gold_answer": "Atlantic Ocean",
+      "predicted_answer": "Atlantic Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen032",
+      "agent_type": "reflexion",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen033",
+      "agent_type": "reflexion",
+      "gold_answer": "the Icelandic krona",
+      "predicted_answer": "the Icelandic krona",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen034",
+      "agent_type": "reflexion",
+      "gold_answer": "Baltic Sea",
+      "predicted_answer": "Baltic Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen035",
+      "agent_type": "reflexion",
+      "gold_answer": "Europe",
+      "predicted_answer": "Europe",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen036",
+      "agent_type": "reflexion",
+      "gold_answer": "the euro",
+      "predicted_answer": "the euro",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen037",
+      "agent_type": "reflexion",
+      "gold_answer": "Red Sea",
+      "predicted_answer": "Red Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen038",
+      "agent_type": "reflexion",
+      "gold_answer": "Africa",
+      "predicted_answer": "Africa",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen039",
+      "agent_type": "reflexion",
+      "gold_answer": "the Egyptian pound",
+      "predicted_answer": "the Egyptian pound",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen040",
+      "agent_type": "reflexion",
+      "gold_answer": "Indian Ocean",
+      "predicted_answer": "Indian Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen041",
+      "agent_type": "reflexion",
+      "gold_answer": "Africa",
+      "predicted_answer": "Africa",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen042",
+      "agent_type": "reflexion",
+      "gold_answer": "the Kenyan shilling",
+      "predicted_answer": "the Kenyan shilling",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen043",
+      "agent_type": "reflexion",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "Pacific Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen044",
+      "agent_type": "reflexion",
+      "gold_answer": "Asia",
+      "predicted_answer": "Asia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen045",
+      "agent_type": "reflexion",
+      "gold_answer": "the Japanese yen",
+      "predicted_answer": "the Japanese yen",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen046",
+      "agent_type": "reflexion",
+      "gold_answer": "South China Sea",
+      "predicted_answer": "South China Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen047",
+      "agent_type": "reflexion",
+      "gold_answer": "Asia",
+      "predicted_answer": "Asia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen048",
+      "agent_type": "reflexion",
+      "gold_answer": "the Vietnamese dong",
+      "predicted_answer": "the Vietnamese dong",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen049",
+      "agent_type": "reflexion",
+      "gold_answer": "Indian Ocean",
+      "predicted_answer": "Indian Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen050",
+      "agent_type": "reflexion",
+      "gold_answer": "Asia",
+      "predicted_answer": "Asia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen051",
+      "agent_type": "reflexion",
+      "gold_answer": "the Indian rupee",
+      "predicted_answer": "the Indian rupee",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen052",
+      "agent_type": "reflexion",
+      "gold_answer": "Gulf of Thailand",
+      "predicted_answer": "Gulf of Thailand",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen053",
+      "agent_type": "reflexion",
+      "gold_answer": "Asia",
+      "predicted_answer": "Asia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen054",
+      "agent_type": "reflexion",
+      "gold_answer": "the Thai baht",
+      "predicted_answer": "the Thai baht",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen055",
+      "agent_type": "reflexion",
+      "gold_answer": "Red Sea",
+      "predicted_answer": "Red Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen056",
+      "agent_type": "reflexion",
+      "gold_answer": "Asia",
+      "predicted_answer": "Asia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen057",
+      "agent_type": "reflexion",
+      "gold_answer": "the Jordanian dinar",
+      "predicted_answer": "the Jordanian dinar",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen058",
+      "agent_type": "reflexion",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "Pacific Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen059",
+      "agent_type": "reflexion",
+      "gold_answer": "South America",
+      "predicted_answer": "South America",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen060",
+      "agent_type": "reflexion",
+      "gold_answer": "the Peruvian sol",
+      "predicted_answer": "the Peruvian sol",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen061",
+      "agent_type": "reflexion",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "Pacific Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen062",
+      "agent_type": "reflexion",
+      "gold_answer": "South America",
+      "predicted_answer": "South America",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen063",
+      "agent_type": "reflexion",
+      "gold_answer": "the Chilean peso",
+      "predicted_answer": "the Chilean peso",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen064",
+      "agent_type": "reflexion",
+      "gold_answer": "Atlantic Ocean",
+      "predicted_answer": "Atlantic Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen065",
+      "agent_type": "reflexion",
+      "gold_answer": "South America",
+      "predicted_answer": "South America",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen066",
+      "agent_type": "reflexion",
+      "gold_answer": "the Brazilian real",
+      "predicted_answer": "the Brazilian real",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen067",
+      "agent_type": "reflexion",
+      "gold_answer": "Atlantic Ocean",
+      "predicted_answer": "Atlantic Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen068",
+      "agent_type": "reflexion",
+      "gold_answer": "South America",
+      "predicted_answer": "South America",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen069",
+      "agent_type": "reflexion",
+      "gold_answer": "the Argentine peso",
+      "predicted_answer": "the Argentine peso",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen070",
+      "agent_type": "reflexion",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "Pacific Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen071",
+      "agent_type": "reflexion",
+      "gold_answer": "North America",
+      "predicted_answer": "North America",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen072",
+      "agent_type": "reflexion",
+      "gold_answer": "the Mexican peso",
+      "predicted_answer": "the Mexican peso",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen073",
+      "agent_type": "reflexion",
+      "gold_answer": "Atlantic Ocean",
+      "predicted_answer": "Atlantic Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen074",
+      "agent_type": "reflexion",
+      "gold_answer": "North America",
+      "predicted_answer": "North America",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen075",
+      "agent_type": "reflexion",
+      "gold_answer": "the Canadian dollar",
+      "predicted_answer": "the Canadian dollar",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen076",
+      "agent_type": "reflexion",
+      "gold_answer": "Romance",
+      "predicted_answer": "Romance",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen077",
+      "agent_type": "reflexion",
+      "gold_answer": "Romance",
+      "predicted_answer": "Romance",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen078",
+      "agent_type": "reflexion",
+      "gold_answer": "Romance",
+      "predicted_answer": "Romance",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen079",
+      "agent_type": "reflexion",
+      "gold_answer": "Romance",
+      "predicted_answer": "Romance",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen080",
+      "agent_type": "reflexion",
+      "gold_answer": "Romance",
+      "predicted_answer": "Romance",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen081",
+      "agent_type": "reflexion",
+      "gold_answer": "Germanic",
+      "predicted_answer": "Germanic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen082",
+      "agent_type": "reflexion",
+      "gold_answer": "Germanic",
+      "predicted_answer": "Germanic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen083",
+      "agent_type": "reflexion",
+      "gold_answer": "Germanic",
+      "predicted_answer": "Germanic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen084",
+      "agent_type": "reflexion",
+      "gold_answer": "Germanic",
+      "predicted_answer": "Germanic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen085",
+      "agent_type": "reflexion",
+      "gold_answer": "Germanic",
+      "predicted_answer": "Germanic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen086",
+      "agent_type": "reflexion",
+      "gold_answer": "Hellenic",
+      "predicted_answer": "Hellenic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen087",
+      "agent_type": "reflexion",
+      "gold_answer": "Slavic",
+      "predicted_answer": "Slavic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen088",
+      "agent_type": "reflexion",
+      "gold_answer": "Semitic",
+      "predicted_answer": "Semitic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen089",
+      "agent_type": "reflexion",
+      "gold_answer": "Semitic",
+      "predicted_answer": "Semitic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen090",
+      "agent_type": "reflexion",
+      "gold_answer": "Japonic",
+      "predicted_answer": "Japonic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen091",
+      "agent_type": "reflexion",
+      "gold_answer": "Austroasiatic",
+      "predicted_answer": "Austroasiatic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen092",
+      "agent_type": "reflexion",
+      "gold_answer": "Uralic",
+      "predicted_answer": "Uralic",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen093",
+      "agent_type": "reflexion",
+      "gold_answer": "Indo-Aryan",
+      "predicted_answer": "Indo-Aryan",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen094",
+      "agent_type": "reflexion",
+      "gold_answer": "Oxford University",
+      "predicted_answer": "Oxford University",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen095",
+      "agent_type": "reflexion",
+      "gold_answer": "the Modder River",
+      "predicted_answer": "the Modder River",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen096",
+      "agent_type": "reflexion",
+      "gold_answer": "Cambridge University",
+      "predicted_answer": "Cambridge University",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen097",
+      "agent_type": "reflexion",
+      "gold_answer": "the River Lagan",
+      "predicted_answer": "the River Lagan",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen098",
+      "agent_type": "reflexion",
+      "gold_answer": "Oxford University",
+      "predicted_answer": "Oxford University",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen099",
+      "agent_type": "reflexion",
+      "gold_answer": "the River Mersey",
+      "predicted_answer": "the River Mersey",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen100",
+      "agent_type": "reflexion",
+      "gold_answer": "the University of Bologna",
+      "predicted_answer": "the University of Bologna",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen101",
+      "agent_type": "reflexion",
+      "gold_answer": "the Tanaro River",
+      "predicted_answer": "the Tanaro River",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen102",
+      "agent_type": "reflexion",
+      "gold_answer": "the University of Exeter",
+      "predicted_answer": "the University of Exeter",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen103",
+      "agent_type": "reflexion",
+      "gold_answer": "the River Frome",
+      "predicted_answer": "the River Frome",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen104",
+      "agent_type": "reflexion",
+      "gold_answer": "violin",
+      "predicted_answer": "violin",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen105",
+      "agent_type": "reflexion",
+      "gold_answer": "piano",
+      "predicted_answer": "piano",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen106",
+      "agent_type": "reflexion",
+      "gold_answer": "violin",
+      "predicted_answer": "violin",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen107",
+      "agent_type": "reflexion",
+      "gold_answer": "piano",
+      "predicted_answer": "piano",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen108",
+      "agent_type": "reflexion",
+      "gold_answer": "cello",
+      "predicted_answer": "cello",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen109",
+      "agent_type": "reflexion",
+      "gold_answer": "trumpet",
+      "predicted_answer": "trumpet",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen110",
+      "agent_type": "reflexion",
+      "gold_answer": "Paris",
+      "predicted_answer": "Paris",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen111",
+      "agent_type": "reflexion",
+      "gold_answer": "New York City",
+      "predicted_answer": "New York City",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen112",
+      "agent_type": "reflexion",
+      "gold_answer": "The Hague",
+      "predicted_answer": "The Hague",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen113",
+      "agent_type": "reflexion",
+      "gold_answer": "Madrid",
+      "predicted_answer": "Madrid",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen114",
+      "agent_type": "reflexion",
+      "gold_answer": "Florence",
+      "predicted_answer": "Florence",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen115",
+      "agent_type": "reflexion",
+      "gold_answer": "mathematics",
+      "predicted_answer": "mathematics",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen116",
+      "agent_type": "reflexion",
+      "gold_answer": "philosophy of science",
+      "predicted_answer": "philosophy of science",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen117",
+      "agent_type": "reflexion",
+      "gold_answer": "chemistry",
+      "predicted_answer": "chemistry",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen118",
+      "agent_type": "reflexion",
+      "gold_answer": "mathematics",
+      "predicted_answer": "mathematics",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen119",
+      "agent_type": "reflexion",
+      "gold_answer": "cryptanalysis",
+      "predicted_answer": "cryptanalysis",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen120",
+      "agent_type": "reflexion",
+      "gold_answer": "Akerselva",
+      "predicted_answer": "Akerselva",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen121",
+      "agent_type": "reflexion",
+      "gold_answer": "Switzerland",
+      "predicted_answer": "Switzerland",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen122",
+      "agent_type": "reflexion",
+      "gold_answer": "Parana",
+      "predicted_answer": "Parana",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen123",
+      "agent_type": "reflexion",
+      "gold_answer": "the Andes",
+      "predicted_answer": "the Andes",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen124",
+      "agent_type": "reflexion",
+      "gold_answer": "Fyodor Dostoevsky",
+      "predicted_answer": "Fyodor Dostoevsky",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen125",
+      "agent_type": "reflexion",
+      "gold_answer": "Dmitri Mendeleev",
+      "predicted_answer": "Dmitri Mendeleev",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen126",
+      "agent_type": "reflexion",
+      "gold_answer": "31 years",
+      "predicted_answer": "31 years",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen127",
+      "agent_type": "reflexion",
+      "gold_answer": "Brasilia",
+      "predicted_answer": "Brasilia",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen128",
+      "agent_type": "reflexion",
+      "gold_answer": "Canberra",
+      "predicted_answer": "Canberra",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen129",
+      "agent_type": "reflexion",
+      "gold_answer": "Ankara",
+      "predicted_answer": "Ankara",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen130",
+      "agent_type": "reflexion",
+      "gold_answer": "the Arabian Sea",
+      "predicted_answer": "the Arabian Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen131",
+      "agent_type": "reflexion",
+      "gold_answer": "Portugal",
+      "predicted_answer": "Portugal",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen132",
+      "agent_type": "reflexion",
+      "gold_answer": "the Nile",
+      "predicted_answer": "the Nile",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen133",
+      "agent_type": "reflexion",
+      "gold_answer": "Kangchenjunga",
+      "predicted_answer": "Kangchenjunga",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen134",
+      "agent_type": "reflexion",
+      "gold_answer": "the Statue of Liberty",
+      "predicted_answer": "the Statue of Liberty",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen135",
+      "agent_type": "reflexion",
+      "gold_answer": "John Adams",
+      "predicted_answer": "John Adams",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen136",
+      "agent_type": "reflexion",
+      "gold_answer": "the Pacific Ocean",
+      "predicted_answer": "the Pacific Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen137",
+      "agent_type": "reflexion",
+      "gold_answer": "Romani",
+      "predicted_answer": "Romani",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen138",
+      "agent_type": "reflexion",
+      "gold_answer": "piano",
+      "predicted_answer": "piano",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "gen139",
+      "agent_type": "reflexion",
+      "gold_answer": "Tokyo",
+      "predicted_answer": "Tokyo",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    }
+  ],
+  "extensions": [
+    "structured_evaluator",
+    "reflection_memory",
+    "adaptive_max_attempts",
+    "memory_compression",
+    "benchmark_report_json",
+    "mock_mode_for_autograding"
+  ],
+  "discussion": "Across 294 runs, ReAct reached EM=0.9728 while Reflexion reached EM=1.0 (delta 0.0272). The accuracy gain costs extra attempts (0.0272 more on average), ~19.7 extra tokens and ~10.34 ms extra latency per item \u2014 the classic accuracy/cost trade-off of self-reflection. Reflexion mainly helped on failure modes ['entity_drift', 'incomplete_multi_hop', 'wrong_final_answer']: the reflection memory let the actor complete the second hop or correct a drifted entity it had gotten wrong on the first try. Failure modes still present after reflection were ['(none)']; these are cases where the evaluator's feedback was too vague, the context lacked the needed bridge fact, or the agent looped on the same wrong entity. Adaptive attempt budgeting (more tries for hard items) and memory compression kept the cost of the extra attempts bounded. The main limiter on further gains is evaluator quality: when grading is noisy, reflections inherit that noise and can occasionally overfit a previously correct answer."
+}

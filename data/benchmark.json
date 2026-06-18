@@ -1,0 +1,2402 @@
+[
+  {
+    "qid": "hp1",
+    "difficulty": "easy",
+    "question": "Which university did the author of The Hobbit teach at?",
+    "gold_answer": "Oxford University",
+    "context": [
+      {
+        "title": "J. R. R. Tolkien",
+        "text": "J. R. R. Tolkien wrote The Hobbit and was a professor at Oxford University."
+      },
+      {
+        "title": "Oxford University",
+        "text": "Oxford University is a collegiate research university in Oxford, England."
+      }
+    ]
+  },
+  {
+    "qid": "hp2",
+    "difficulty": "medium",
+    "question": "What river flows through the city where Ada Lovelace was born?",
+    "gold_answer": "River Thames",
+    "context": [
+      {
+        "title": "Ada Lovelace",
+        "text": "Ada Lovelace was born in London, England."
+      },
+      {
+        "title": "London",
+        "text": "London is crossed by the River Thames."
+      }
+    ]
+  },
+  {
+    "qid": "hp3",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of The Four Seasons mainly play?",
+    "gold_answer": "violin",
+    "context": [
+      {
+        "title": "The Four Seasons",
+        "text": "The Four Seasons is a group of violin concertos by Antonio Vivaldi."
+      },
+      {
+        "title": "Antonio Vivaldi",
+        "text": "Antonio Vivaldi was an Italian Baroque composer and virtuoso violinist."
+      }
+    ]
+  },
+  {
+    "qid": "hp4",
+    "difficulty": "medium",
+    "question": "Which ocean borders the country whose capital is Lima?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "Lima",
+        "text": "Lima is the capital city of Peru."
+      },
+      {
+        "title": "Peru",
+        "text": "Peru borders the Pacific Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "hp5",
+    "difficulty": "easy",
+    "question": "What field did the scientist who proposed the three laws of motion study in addition to physics?",
+    "gold_answer": "mathematics",
+    "context": [
+      {
+        "title": "Isaac Newton",
+        "text": "Isaac Newton formulated the laws of motion and was a physicist and mathematician."
+      },
+      {
+        "title": "Laws of motion",
+        "text": "The three laws of motion are attributed to Isaac Newton."
+      }
+    ]
+  },
+  {
+    "qid": "hp6",
+    "difficulty": "hard",
+    "question": "What sea borders the country where Petra is located?",
+    "gold_answer": "Dead Sea",
+    "context": [
+      {
+        "title": "Petra",
+        "text": "Petra is a historical city in Jordan."
+      },
+      {
+        "title": "Jordan",
+        "text": "Jordan borders the Dead Sea to the west."
+      }
+    ]
+  },
+  {
+    "qid": "hp7",
+    "difficulty": "medium",
+    "question": "Which language family does the primary language of Brazil belong to?",
+    "gold_answer": "Romance",
+    "context": [
+      {
+        "title": "Brazil",
+        "text": "The official language of Brazil is Portuguese."
+      },
+      {
+        "title": "Portuguese language",
+        "text": "Portuguese is a Romance language."
+      }
+    ]
+  },
+  {
+    "qid": "hp8",
+    "difficulty": "hard",
+    "question": "Which mountain range contains the highest mountain in the country whose capital is Kathmandu?",
+    "gold_answer": "Himalayas",
+    "context": [
+      {
+        "title": "Kathmandu",
+        "text": "Kathmandu is the capital city of Nepal."
+      },
+      {
+        "title": "Nepal",
+        "text": "Mount Everest, the highest mountain in Nepal, is part of the Himalayas."
+      }
+    ]
+  },
+  {
+    "qid": "gen001",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Paris?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Paris",
+        "text": "Paris is the capital city of France."
+      },
+      {
+        "title": "France",
+        "text": "France borders the Atlantic Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "gen002",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Paris located?",
+    "gold_answer": "Europe",
+    "context": [
+      {
+        "title": "Paris",
+        "text": "Paris is the capital city of France."
+      },
+      {
+        "title": "France",
+        "text": "France is located in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "gen003",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Paris?",
+    "gold_answer": "the euro",
+    "context": [
+      {
+        "title": "Paris",
+        "text": "Paris is the capital city of France."
+      },
+      {
+        "title": "France",
+        "text": "The official currency of France is the euro."
+      }
+    ]
+  },
+  {
+    "qid": "gen004",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Madrid?",
+    "gold_answer": "Mediterranean Sea",
+    "context": [
+      {
+        "title": "Madrid",
+        "text": "Madrid is the capital city of Spain."
+      },
+      {
+        "title": "Spain",
+        "text": "Spain borders the Mediterranean Sea."
+      }
+    ]
+  },
+  {
+    "qid": "gen005",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Madrid located?",
+    "gold_answer": "Europe",
+    "context": [
+      {
+        "title": "Madrid",
+        "text": "Madrid is the capital city of Spain."
+      },
+      {
+        "title": "Spain",
+        "text": "Spain is located in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "gen006",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Madrid?",
+    "gold_answer": "the euro",
+    "context": [
+      {
+        "title": "Madrid",
+        "text": "Madrid is the capital city of Spain."
+      },
+      {
+        "title": "Spain",
+        "text": "The official currency of Spain is the euro."
+      }
+    ]
+  },
+  {
+    "qid": "gen007",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Rome?",
+    "gold_answer": "Mediterranean Sea",
+    "context": [
+      {
+        "title": "Rome",
+        "text": "Rome is the capital city of Italy."
+      },
+      {
+        "title": "Italy",
+        "text": "Italy borders the Mediterranean Sea."
+      }
+    ]
+  },
+  {
+    "qid": "gen008",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Rome located?",
+    "gold_answer": "Europe",
+    "context": [
+      {
+        "title": "Rome",
+        "text": "Rome is the capital city of Italy."
+      },
+      {
+        "title": "Italy",
+        "text": "Italy is located in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "gen009",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Rome?",
+    "gold_answer": "the euro",
+    "context": [
+      {
+        "title": "Rome",
+        "text": "Rome is the capital city of Italy."
+      },
+      {
+        "title": "Italy",
+        "text": "The official currency of Italy is the euro."
+      }
+    ]
+  },
+  {
+    "qid": "gen010",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Lisbon?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Lisbon",
+        "text": "Lisbon is the capital city of Portugal."
+      },
+      {
+        "title": "Portugal",
+        "text": "Portugal borders the Atlantic Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "gen011",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Lisbon located?",
+    "gold_answer": "Europe",
+    "context": [
+      {
+        "title": "Lisbon",
+        "text": "Lisbon is the capital city of Portugal."
+      },
+      {
+        "title": "Portugal",
+        "text": "Portugal is located in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "gen012",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Lisbon?",
+    "gold_answer": "the euro",
+    "context": [
+      {
+        "title": "Lisbon",
+        "text": "Lisbon is the capital city of Portugal."
+      },
+      {
+        "title": "Portugal",
+        "text": "The official currency of Portugal is the euro."
+      }
+    ]
+  },
+  {
+    "qid": "gen013",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Berlin?",
+    "gold_answer": "Baltic Sea",
+    "context": [
+      {
+        "title": "Berlin",
+        "text": "Berlin is the capital city of Germany."
+      },
+      {
+        "title": "Germany",
+        "text": "Germany borders the Baltic Sea."
+      }
+    ]
+  },
+  {
+    "qid": "gen014",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Berlin located?",
+    "gold_answer": "Europe",
+    "context": [
+      {
+        "title": "Berlin",
+        "text": "Berlin is the capital city of Germany."
+      },
+      {
+        "title": "Germany",
+        "text": "Germany is located in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "gen015",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Berlin?",
+    "gold_answer": "the euro",
+    "context": [
+      {
+        "title": "Berlin",
+        "text": "Berlin is the capital city of Germany."
+      },
+      {
+        "title": "Germany",
+        "text": "The official currency of Germany is the euro."
+      }
+    ]
+  },
+  {
+    "qid": "gen016",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Oslo?",
+    "gold_answer": "North Sea",
+    "context": [
+      {
+        "title": "Oslo",
+        "text": "Oslo is the capital city of Norway."
+      },
+      {
+        "title": "Norway",
+        "text": "Norway borders the North Sea."
+      }
+    ]
+  },
+  {
+    "qid": "gen017",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Oslo located?",
+    "gold_answer": "Europe",
+    "context": [
+      {
+        "title": "Oslo",
+        "text": "Oslo is the capital city of Norway."
+      },
+      {
+        "title": "Norway",
+        "text": "Norway is located in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "gen018",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Oslo?",
+    "gold_answer": "the Norwegian krone",
+    "context": [
+      {
+        "title": "Oslo",
+        "text": "Oslo is the capital city of Norway."
+      },
+      {
+        "title": "Norway",
+        "text": "The official currency of Norway is the Norwegian krone."
+      }
+    ]
+  },
+  {
+    "qid": "gen019",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Stockholm?",
+    "gold_answer": "Baltic Sea",
+    "context": [
+      {
+        "title": "Stockholm",
+        "text": "Stockholm is the capital city of Sweden."
+      },
+      {
+        "title": "Sweden",
+        "text": "Sweden borders the Baltic Sea."
+      }
+    ]
+  },
+  {
+    "qid": "gen020",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Stockholm located?",
+    "gold_answer": "Europe",
+    "context": [
+      {
+        "title": "Stockholm",
+        "text": "Stockholm is the capital city of Sweden."
+      },
+      {
+        "title": "Sweden",
+        "text": "Sweden is located in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "gen021",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Stockholm?",
+    "gold_answer": "the Swedish krona",
+    "context": [
+      {
+        "title": "Stockholm",
+        "text": "Stockholm is the capital city of Sweden."
+      },
+      {
+        "title": "Sweden",
+        "text": "The official currency of Sweden is the Swedish krona."
+      }
+    ]
+  },
+  {
+    "qid": "gen022",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Amsterdam?",
+    "gold_answer": "North Sea",
+    "context": [
+      {
+        "title": "Amsterdam",
+        "text": "Amsterdam is the capital city of the Netherlands."
+      },
+      {
+        "title": "the Netherlands",
+        "text": "the Netherlands borders the North Sea."
+      }
+    ]
+  },
+  {
+    "qid": "gen023",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Amsterdam located?",
+    "gold_answer": "Europe",
+    "context": [
+      {
+        "title": "Amsterdam",
+        "text": "Amsterdam is the capital city of the Netherlands."
+      },
+      {
+        "title": "the Netherlands",
+        "text": "the Netherlands is located in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "gen024",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Amsterdam?",
+    "gold_answer": "the euro",
+    "context": [
+      {
+        "title": "Amsterdam",
+        "text": "Amsterdam is the capital city of the Netherlands."
+      },
+      {
+        "title": "the Netherlands",
+        "text": "The official currency of the Netherlands is the euro."
+      }
+    ]
+  },
+  {
+    "qid": "gen025",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Athens?",
+    "gold_answer": "Aegean Sea",
+    "context": [
+      {
+        "title": "Athens",
+        "text": "Athens is the capital city of Greece."
+      },
+      {
+        "title": "Greece",
+        "text": "Greece borders the Aegean Sea."
+      }
+    ]
+  },
+  {
+    "qid": "gen026",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Athens located?",
+    "gold_answer": "Europe",
+    "context": [
+      {
+        "title": "Athens",
+        "text": "Athens is the capital city of Greece."
+      },
+      {
+        "title": "Greece",
+        "text": "Greece is located in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "gen027",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Athens?",
+    "gold_answer": "the euro",
+    "context": [
+      {
+        "title": "Athens",
+        "text": "Athens is the capital city of Greece."
+      },
+      {
+        "title": "Greece",
+        "text": "The official currency of Greece is the euro."
+      }
+    ]
+  },
+  {
+    "qid": "gen028",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Warsaw?",
+    "gold_answer": "Baltic Sea",
+    "context": [
+      {
+        "title": "Warsaw",
+        "text": "Warsaw is the capital city of Poland."
+      },
+      {
+        "title": "Poland",
+        "text": "Poland borders the Baltic Sea."
+      }
+    ]
+  },
+  {
+    "qid": "gen029",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Warsaw located?",
+    "gold_answer": "Europe",
+    "context": [
+      {
+        "title": "Warsaw",
+        "text": "Warsaw is the capital city of Poland."
+      },
+      {
+        "title": "Poland",
+        "text": "Poland is located in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "gen030",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Warsaw?",
+    "gold_answer": "the Polish zloty",
+    "context": [
+      {
+        "title": "Warsaw",
+        "text": "Warsaw is the capital city of Poland."
+      },
+      {
+        "title": "Poland",
+        "text": "The official currency of Poland is the Polish zloty."
+      }
+    ]
+  },
+  {
+    "qid": "gen031",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Reykjavik?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Reykjavik",
+        "text": "Reykjavik is the capital city of Iceland."
+      },
+      {
+        "title": "Iceland",
+        "text": "Iceland borders the Atlantic Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "gen032",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Reykjavik located?",
+    "gold_answer": "Europe",
+    "context": [
+      {
+        "title": "Reykjavik",
+        "text": "Reykjavik is the capital city of Iceland."
+      },
+      {
+        "title": "Iceland",
+        "text": "Iceland is located in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "gen033",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Reykjavik?",
+    "gold_answer": "the Icelandic krona",
+    "context": [
+      {
+        "title": "Reykjavik",
+        "text": "Reykjavik is the capital city of Iceland."
+      },
+      {
+        "title": "Iceland",
+        "text": "The official currency of Iceland is the Icelandic krona."
+      }
+    ]
+  },
+  {
+    "qid": "gen034",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Helsinki?",
+    "gold_answer": "Baltic Sea",
+    "context": [
+      {
+        "title": "Helsinki",
+        "text": "Helsinki is the capital city of Finland."
+      },
+      {
+        "title": "Finland",
+        "text": "Finland borders the Baltic Sea."
+      }
+    ]
+  },
+  {
+    "qid": "gen035",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Helsinki located?",
+    "gold_answer": "Europe",
+    "context": [
+      {
+        "title": "Helsinki",
+        "text": "Helsinki is the capital city of Finland."
+      },
+      {
+        "title": "Finland",
+        "text": "Finland is located in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "gen036",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Helsinki?",
+    "gold_answer": "the euro",
+    "context": [
+      {
+        "title": "Helsinki",
+        "text": "Helsinki is the capital city of Finland."
+      },
+      {
+        "title": "Finland",
+        "text": "The official currency of Finland is the euro."
+      }
+    ]
+  },
+  {
+    "qid": "gen037",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Cairo?",
+    "gold_answer": "Red Sea",
+    "context": [
+      {
+        "title": "Cairo",
+        "text": "Cairo is the capital city of Egypt."
+      },
+      {
+        "title": "Egypt",
+        "text": "Egypt borders the Red Sea."
+      }
+    ]
+  },
+  {
+    "qid": "gen038",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Cairo located?",
+    "gold_answer": "Africa",
+    "context": [
+      {
+        "title": "Cairo",
+        "text": "Cairo is the capital city of Egypt."
+      },
+      {
+        "title": "Egypt",
+        "text": "Egypt is located in Africa."
+      }
+    ]
+  },
+  {
+    "qid": "gen039",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Cairo?",
+    "gold_answer": "the Egyptian pound",
+    "context": [
+      {
+        "title": "Cairo",
+        "text": "Cairo is the capital city of Egypt."
+      },
+      {
+        "title": "Egypt",
+        "text": "The official currency of Egypt is the Egyptian pound."
+      }
+    ]
+  },
+  {
+    "qid": "gen040",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Nairobi?",
+    "gold_answer": "Indian Ocean",
+    "context": [
+      {
+        "title": "Nairobi",
+        "text": "Nairobi is the capital city of Kenya."
+      },
+      {
+        "title": "Kenya",
+        "text": "Kenya borders the Indian Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "gen041",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Nairobi located?",
+    "gold_answer": "Africa",
+    "context": [
+      {
+        "title": "Nairobi",
+        "text": "Nairobi is the capital city of Kenya."
+      },
+      {
+        "title": "Kenya",
+        "text": "Kenya is located in Africa."
+      }
+    ]
+  },
+  {
+    "qid": "gen042",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Nairobi?",
+    "gold_answer": "the Kenyan shilling",
+    "context": [
+      {
+        "title": "Nairobi",
+        "text": "Nairobi is the capital city of Kenya."
+      },
+      {
+        "title": "Kenya",
+        "text": "The official currency of Kenya is the Kenyan shilling."
+      }
+    ]
+  },
+  {
+    "qid": "gen043",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Tokyo?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "Tokyo",
+        "text": "Tokyo is the capital city of Japan."
+      },
+      {
+        "title": "Japan",
+        "text": "Japan borders the Pacific Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "gen044",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Tokyo located?",
+    "gold_answer": "Asia",
+    "context": [
+      {
+        "title": "Tokyo",
+        "text": "Tokyo is the capital city of Japan."
+      },
+      {
+        "title": "Japan",
+        "text": "Japan is located in Asia."
+      }
+    ]
+  },
+  {
+    "qid": "gen045",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Tokyo?",
+    "gold_answer": "the Japanese yen",
+    "context": [
+      {
+        "title": "Tokyo",
+        "text": "Tokyo is the capital city of Japan."
+      },
+      {
+        "title": "Japan",
+        "text": "The official currency of Japan is the Japanese yen."
+      }
+    ]
+  },
+  {
+    "qid": "gen046",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Hanoi?",
+    "gold_answer": "South China Sea",
+    "context": [
+      {
+        "title": "Hanoi",
+        "text": "Hanoi is the capital city of Vietnam."
+      },
+      {
+        "title": "Vietnam",
+        "text": "Vietnam borders the South China Sea."
+      }
+    ]
+  },
+  {
+    "qid": "gen047",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Hanoi located?",
+    "gold_answer": "Asia",
+    "context": [
+      {
+        "title": "Hanoi",
+        "text": "Hanoi is the capital city of Vietnam."
+      },
+      {
+        "title": "Vietnam",
+        "text": "Vietnam is located in Asia."
+      }
+    ]
+  },
+  {
+    "qid": "gen048",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Hanoi?",
+    "gold_answer": "the Vietnamese dong",
+    "context": [
+      {
+        "title": "Hanoi",
+        "text": "Hanoi is the capital city of Vietnam."
+      },
+      {
+        "title": "Vietnam",
+        "text": "The official currency of Vietnam is the Vietnamese dong."
+      }
+    ]
+  },
+  {
+    "qid": "gen049",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is New Delhi?",
+    "gold_answer": "Indian Ocean",
+    "context": [
+      {
+        "title": "New Delhi",
+        "text": "New Delhi is the capital city of India."
+      },
+      {
+        "title": "India",
+        "text": "India borders the Indian Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "gen050",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is New Delhi located?",
+    "gold_answer": "Asia",
+    "context": [
+      {
+        "title": "New Delhi",
+        "text": "New Delhi is the capital city of India."
+      },
+      {
+        "title": "India",
+        "text": "India is located in Asia."
+      }
+    ]
+  },
+  {
+    "qid": "gen051",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is New Delhi?",
+    "gold_answer": "the Indian rupee",
+    "context": [
+      {
+        "title": "New Delhi",
+        "text": "New Delhi is the capital city of India."
+      },
+      {
+        "title": "India",
+        "text": "The official currency of India is the Indian rupee."
+      }
+    ]
+  },
+  {
+    "qid": "gen052",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Bangkok?",
+    "gold_answer": "Gulf of Thailand",
+    "context": [
+      {
+        "title": "Bangkok",
+        "text": "Bangkok is the capital city of Thailand."
+      },
+      {
+        "title": "Thailand",
+        "text": "Thailand borders the Gulf of Thailand."
+      }
+    ]
+  },
+  {
+    "qid": "gen053",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Bangkok located?",
+    "gold_answer": "Asia",
+    "context": [
+      {
+        "title": "Bangkok",
+        "text": "Bangkok is the capital city of Thailand."
+      },
+      {
+        "title": "Thailand",
+        "text": "Thailand is located in Asia."
+      }
+    ]
+  },
+  {
+    "qid": "gen054",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Bangkok?",
+    "gold_answer": "the Thai baht",
+    "context": [
+      {
+        "title": "Bangkok",
+        "text": "Bangkok is the capital city of Thailand."
+      },
+      {
+        "title": "Thailand",
+        "text": "The official currency of Thailand is the Thai baht."
+      }
+    ]
+  },
+  {
+    "qid": "gen055",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Amman?",
+    "gold_answer": "Red Sea",
+    "context": [
+      {
+        "title": "Amman",
+        "text": "Amman is the capital city of Jordan."
+      },
+      {
+        "title": "Jordan",
+        "text": "Jordan borders the Red Sea."
+      }
+    ]
+  },
+  {
+    "qid": "gen056",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Amman located?",
+    "gold_answer": "Asia",
+    "context": [
+      {
+        "title": "Amman",
+        "text": "Amman is the capital city of Jordan."
+      },
+      {
+        "title": "Jordan",
+        "text": "Jordan is located in Asia."
+      }
+    ]
+  },
+  {
+    "qid": "gen057",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Amman?",
+    "gold_answer": "the Jordanian dinar",
+    "context": [
+      {
+        "title": "Amman",
+        "text": "Amman is the capital city of Jordan."
+      },
+      {
+        "title": "Jordan",
+        "text": "The official currency of Jordan is the Jordanian dinar."
+      }
+    ]
+  },
+  {
+    "qid": "gen058",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Lima?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "Lima",
+        "text": "Lima is the capital city of Peru."
+      },
+      {
+        "title": "Peru",
+        "text": "Peru borders the Pacific Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "gen059",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Lima located?",
+    "gold_answer": "South America",
+    "context": [
+      {
+        "title": "Lima",
+        "text": "Lima is the capital city of Peru."
+      },
+      {
+        "title": "Peru",
+        "text": "Peru is located in South America."
+      }
+    ]
+  },
+  {
+    "qid": "gen060",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Lima?",
+    "gold_answer": "the Peruvian sol",
+    "context": [
+      {
+        "title": "Lima",
+        "text": "Lima is the capital city of Peru."
+      },
+      {
+        "title": "Peru",
+        "text": "The official currency of Peru is the Peruvian sol."
+      }
+    ]
+  },
+  {
+    "qid": "gen061",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Santiago?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "Santiago",
+        "text": "Santiago is the capital city of Chile."
+      },
+      {
+        "title": "Chile",
+        "text": "Chile borders the Pacific Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "gen062",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Santiago located?",
+    "gold_answer": "South America",
+    "context": [
+      {
+        "title": "Santiago",
+        "text": "Santiago is the capital city of Chile."
+      },
+      {
+        "title": "Chile",
+        "text": "Chile is located in South America."
+      }
+    ]
+  },
+  {
+    "qid": "gen063",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Santiago?",
+    "gold_answer": "the Chilean peso",
+    "context": [
+      {
+        "title": "Santiago",
+        "text": "Santiago is the capital city of Chile."
+      },
+      {
+        "title": "Chile",
+        "text": "The official currency of Chile is the Chilean peso."
+      }
+    ]
+  },
+  {
+    "qid": "gen064",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Brasilia?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Brasilia",
+        "text": "Brasilia is the capital city of Brazil."
+      },
+      {
+        "title": "Brazil",
+        "text": "Brazil borders the Atlantic Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "gen065",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Brasilia located?",
+    "gold_answer": "South America",
+    "context": [
+      {
+        "title": "Brasilia",
+        "text": "Brasilia is the capital city of Brazil."
+      },
+      {
+        "title": "Brazil",
+        "text": "Brazil is located in South America."
+      }
+    ]
+  },
+  {
+    "qid": "gen066",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Brasilia?",
+    "gold_answer": "the Brazilian real",
+    "context": [
+      {
+        "title": "Brasilia",
+        "text": "Brasilia is the capital city of Brazil."
+      },
+      {
+        "title": "Brazil",
+        "text": "The official currency of Brazil is the Brazilian real."
+      }
+    ]
+  },
+  {
+    "qid": "gen067",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Buenos Aires?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Buenos Aires",
+        "text": "Buenos Aires is the capital city of Argentina."
+      },
+      {
+        "title": "Argentina",
+        "text": "Argentina borders the Atlantic Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "gen068",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Buenos Aires located?",
+    "gold_answer": "South America",
+    "context": [
+      {
+        "title": "Buenos Aires",
+        "text": "Buenos Aires is the capital city of Argentina."
+      },
+      {
+        "title": "Argentina",
+        "text": "Argentina is located in South America."
+      }
+    ]
+  },
+  {
+    "qid": "gen069",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Buenos Aires?",
+    "gold_answer": "the Argentine peso",
+    "context": [
+      {
+        "title": "Buenos Aires",
+        "text": "Buenos Aires is the capital city of Argentina."
+      },
+      {
+        "title": "Argentina",
+        "text": "The official currency of Argentina is the Argentine peso."
+      }
+    ]
+  },
+  {
+    "qid": "gen070",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Mexico City?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "Mexico City",
+        "text": "Mexico City is the capital city of Mexico."
+      },
+      {
+        "title": "Mexico",
+        "text": "Mexico borders the Pacific Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "gen071",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Mexico City located?",
+    "gold_answer": "North America",
+    "context": [
+      {
+        "title": "Mexico City",
+        "text": "Mexico City is the capital city of Mexico."
+      },
+      {
+        "title": "Mexico",
+        "text": "Mexico is located in North America."
+      }
+    ]
+  },
+  {
+    "qid": "gen072",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Mexico City?",
+    "gold_answer": "the Mexican peso",
+    "context": [
+      {
+        "title": "Mexico City",
+        "text": "Mexico City is the capital city of Mexico."
+      },
+      {
+        "title": "Mexico",
+        "text": "The official currency of Mexico is the Mexican peso."
+      }
+    ]
+  },
+  {
+    "qid": "gen073",
+    "difficulty": "medium",
+    "question": "Which body of water borders the country whose capital is Ottawa?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Ottawa",
+        "text": "Ottawa is the capital city of Canada."
+      },
+      {
+        "title": "Canada",
+        "text": "Canada borders the Atlantic Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "gen074",
+    "difficulty": "medium",
+    "question": "On which continent is the country whose capital is Ottawa located?",
+    "gold_answer": "North America",
+    "context": [
+      {
+        "title": "Ottawa",
+        "text": "Ottawa is the capital city of Canada."
+      },
+      {
+        "title": "Canada",
+        "text": "Canada is located in North America."
+      }
+    ]
+  },
+  {
+    "qid": "gen075",
+    "difficulty": "easy",
+    "question": "What is the official currency of the country whose capital is Ottawa?",
+    "gold_answer": "the Canadian dollar",
+    "context": [
+      {
+        "title": "Ottawa",
+        "text": "Ottawa is the capital city of Canada."
+      },
+      {
+        "title": "Canada",
+        "text": "The official currency of Canada is the Canadian dollar."
+      }
+    ]
+  },
+  {
+    "qid": "gen076",
+    "difficulty": "medium",
+    "question": "Which language family does the official language of France belong to?",
+    "gold_answer": "Romance",
+    "context": [
+      {
+        "title": "France",
+        "text": "The official language of France is French."
+      },
+      {
+        "title": "French language",
+        "text": "French is a Romance language."
+      }
+    ]
+  },
+  {
+    "qid": "gen077",
+    "difficulty": "medium",
+    "question": "Which language family does the official language of Spain belong to?",
+    "gold_answer": "Romance",
+    "context": [
+      {
+        "title": "Spain",
+        "text": "The official language of Spain is Spanish."
+      },
+      {
+        "title": "Spanish language",
+        "text": "Spanish is a Romance language."
+      }
+    ]
+  },
+  {
+    "qid": "gen078",
+    "difficulty": "medium",
+    "question": "Which language family does the official language of Italy belong to?",
+    "gold_answer": "Romance",
+    "context": [
+      {
+        "title": "Italy",
+        "text": "The official language of Italy is Italian."
+      },
+      {
+        "title": "Italian language",
+        "text": "Italian is a Romance language."
+      }
+    ]
+  },
+  {
+    "qid": "gen079",
+    "difficulty": "medium",
+    "question": "Which language family does the official language of Portugal belong to?",
+    "gold_answer": "Romance",
+    "context": [
+      {
+        "title": "Portugal",
+        "text": "The official language of Portugal is Portuguese."
+      },
+      {
+        "title": "Portuguese language",
+        "text": "Portuguese is a Romance language."
+      }
+    ]
+  },
+  {
+    "qid": "gen080",
+    "difficulty": "medium",
+    "question": "Which language family does the official language of Brazil belong to?",
+    "gold_answer": "Romance",
+    "context": [
+      {
+        "title": "Brazil",
+        "text": "The official language of Brazil is Portuguese."
+      },
+      {
+        "title": "Portuguese language",
+        "text": "Portuguese is a Romance language."
+      }
+    ]
+  },
+  {
+    "qid": "gen081",
+    "difficulty": "medium",
+    "question": "Which language family does the official language of Germany belong to?",
+    "gold_answer": "Germanic",
+    "context": [
+      {
+        "title": "Germany",
+        "text": "The official language of Germany is German."
+      },
+      {
+        "title": "German language",
+        "text": "German is a Germanic language."
+      }
+    ]
+  },
+  {
+    "qid": "gen082",
+    "difficulty": "medium",
+    "question": "Which language family does the official language of Norway belong to?",
+    "gold_answer": "Germanic",
+    "context": [
+      {
+        "title": "Norway",
+        "text": "The official language of Norway is Norwegian."
+      },
+      {
+        "title": "Norwegian language",
+        "text": "Norwegian is a Germanic language."
+      }
+    ]
+  },
+  {
+    "qid": "gen083",
+    "difficulty": "medium",
+    "question": "Which language family does the official language of Sweden belong to?",
+    "gold_answer": "Germanic",
+    "context": [
+      {
+        "title": "Sweden",
+        "text": "The official language of Sweden is Swedish."
+      },
+      {
+        "title": "Swedish language",
+        "text": "Swedish is a Germanic language."
+      }
+    ]
+  },
+  {
+    "qid": "gen084",
+    "difficulty": "medium",
+    "question": "Which language family does the official language of the Netherlands belong to?",
+    "gold_answer": "Germanic",
+    "context": [
+      {
+        "title": "the Netherlands",
+        "text": "The official language of the Netherlands is Dutch."
+      },
+      {
+        "title": "Dutch language",
+        "text": "Dutch is a Germanic language."
+      }
+    ]
+  },
+  {
+    "qid": "gen085",
+    "difficulty": "medium",
+    "question": "Which language family does the official language of Iceland belong to?",
+    "gold_answer": "Germanic",
+    "context": [
+      {
+        "title": "Iceland",
+        "text": "The official language of Iceland is Icelandic."
+      },
+      {
+        "title": "Icelandic language",
+        "text": "Icelandic is a Germanic language."
+      }
+    ]
+  },
+  {
+    "qid": "gen086",
+    "difficulty": "medium",
+    "question": "Which language family does the official language of Greece belong to?",
+    "gold_answer": "Hellenic",
+    "context": [
+      {
+        "title": "Greece",
+        "text": "The official language of Greece is Greek."
+      },
+      {
+        "title": "Greek language",
+        "text": "Greek is a Hellenic language."
+      }
+    ]
+  },
+  {
+    "qid": "gen087",
+    "difficulty": "medium",
+    "question": "Which language family does the official language of Poland belong to?",
+    "gold_answer": "Slavic",
+    "context": [
+      {
+        "title": "Poland",
+        "text": "The official language of Poland is Polish."
+      },
+      {
+        "title": "Polish language",
+        "text": "Polish is a Slavic language."
+      }
+    ]
+  },
+  {
+    "qid": "gen088",
+    "difficulty": "medium",
+    "question": "Which language family does the official language of Egypt belong to?",
+    "gold_answer": "Semitic",
+    "context": [
+      {
+        "title": "Egypt",
+        "text": "The official language of Egypt is Arabic."
+      },
+      {
+        "title": "Arabic language",
+        "text": "Arabic is a Semitic language."
+      }
+    ]
+  },
+  {
+    "qid": "gen089",
+    "difficulty": "medium",
+    "question": "Which language family does the official language of Jordan belong to?",
+    "gold_answer": "Semitic",
+    "context": [
+      {
+        "title": "Jordan",
+        "text": "The official language of Jordan is Arabic."
+      },
+      {
+        "title": "Arabic language",
+        "text": "Arabic is a Semitic language."
+      }
+    ]
+  },
+  {
+    "qid": "gen090",
+    "difficulty": "medium",
+    "question": "Which language family does the official language of Japan belong to?",
+    "gold_answer": "Japonic",
+    "context": [
+      {
+        "title": "Japan",
+        "text": "The official language of Japan is Japanese."
+      },
+      {
+        "title": "Japanese language",
+        "text": "Japanese is a Japonic language."
+      }
+    ]
+  },
+  {
+    "qid": "gen091",
+    "difficulty": "medium",
+    "question": "Which language family does the official language of Vietnam belong to?",
+    "gold_answer": "Austroasiatic",
+    "context": [
+      {
+        "title": "Vietnam",
+        "text": "The official language of Vietnam is Vietnamese."
+      },
+      {
+        "title": "Vietnamese language",
+        "text": "Vietnamese is a Austroasiatic language."
+      }
+    ]
+  },
+  {
+    "qid": "gen092",
+    "difficulty": "medium",
+    "question": "Which language family does the official language of Finland belong to?",
+    "gold_answer": "Uralic",
+    "context": [
+      {
+        "title": "Finland",
+        "text": "The official language of Finland is Finnish."
+      },
+      {
+        "title": "Finnish language",
+        "text": "Finnish is a Uralic language."
+      }
+    ]
+  },
+  {
+    "qid": "gen093",
+    "difficulty": "medium",
+    "question": "Which language family does the official language of India belong to?",
+    "gold_answer": "Indo-Aryan",
+    "context": [
+      {
+        "title": "India",
+        "text": "The official language of India is Hindi."
+      },
+      {
+        "title": "Hindi language",
+        "text": "Hindi is a Indo-Aryan language."
+      }
+    ]
+  },
+  {
+    "qid": "gen094",
+    "difficulty": "medium",
+    "question": "Which university did the author of The Hobbit teach at?",
+    "gold_answer": "Oxford University",
+    "context": [
+      {
+        "title": "J. R. R. Tolkien",
+        "text": "J. R. R. Tolkien wrote The Hobbit and taught at Oxford University."
+      },
+      {
+        "title": "The Hobbit",
+        "text": "The Hobbit was written by J. R. R. Tolkien."
+      }
+    ]
+  },
+  {
+    "qid": "gen095",
+    "difficulty": "hard",
+    "question": "What river flows through the city where the author of The Hobbit was born?",
+    "gold_answer": "the Modder River",
+    "context": [
+      {
+        "title": "J. R. R. Tolkien",
+        "text": "J. R. R. Tolkien, the author of The Hobbit, was born in Bloemfontein."
+      },
+      {
+        "title": "Bloemfontein",
+        "text": "Bloemfontein is crossed by the Modder River."
+      }
+    ]
+  },
+  {
+    "qid": "gen096",
+    "difficulty": "medium",
+    "question": "Which university did the author of The Chronicles of Narnia teach at?",
+    "gold_answer": "Cambridge University",
+    "context": [
+      {
+        "title": "C. S. Lewis",
+        "text": "C. S. Lewis wrote The Chronicles of Narnia and taught at Cambridge University."
+      },
+      {
+        "title": "The Chronicles of Narnia",
+        "text": "The Chronicles of Narnia was written by C. S. Lewis."
+      }
+    ]
+  },
+  {
+    "qid": "gen097",
+    "difficulty": "hard",
+    "question": "What river flows through the city where the author of The Chronicles of Narnia was born?",
+    "gold_answer": "the River Lagan",
+    "context": [
+      {
+        "title": "C. S. Lewis",
+        "text": "C. S. Lewis, the author of The Chronicles of Narnia, was born in Belfast."
+      },
+      {
+        "title": "Belfast",
+        "text": "Belfast is crossed by the River Lagan."
+      }
+    ]
+  },
+  {
+    "qid": "gen098",
+    "difficulty": "medium",
+    "question": "Which university did the author of Alice in Wonderland teach at?",
+    "gold_answer": "Oxford University",
+    "context": [
+      {
+        "title": "Lewis Carroll",
+        "text": "Lewis Carroll wrote Alice in Wonderland and taught at Oxford University."
+      },
+      {
+        "title": "Alice in Wonderland",
+        "text": "Alice in Wonderland was written by Lewis Carroll."
+      }
+    ]
+  },
+  {
+    "qid": "gen099",
+    "difficulty": "hard",
+    "question": "What river flows through the city where the author of Alice in Wonderland was born?",
+    "gold_answer": "the River Mersey",
+    "context": [
+      {
+        "title": "Lewis Carroll",
+        "text": "Lewis Carroll, the author of Alice in Wonderland, was born in Daresbury."
+      },
+      {
+        "title": "Daresbury",
+        "text": "Daresbury is crossed by the River Mersey."
+      }
+    ]
+  },
+  {
+    "qid": "gen100",
+    "difficulty": "medium",
+    "question": "Which university did the author of The Name of the Rose teach at?",
+    "gold_answer": "the University of Bologna",
+    "context": [
+      {
+        "title": "Umberto Eco",
+        "text": "Umberto Eco wrote The Name of the Rose and taught at the University of Bologna."
+      },
+      {
+        "title": "The Name of the Rose",
+        "text": "The Name of the Rose was written by Umberto Eco."
+      }
+    ]
+  },
+  {
+    "qid": "gen101",
+    "difficulty": "hard",
+    "question": "What river flows through the city where the author of The Name of the Rose was born?",
+    "gold_answer": "the Tanaro River",
+    "context": [
+      {
+        "title": "Umberto Eco",
+        "text": "Umberto Eco, the author of The Name of the Rose, was born in Alessandria."
+      },
+      {
+        "title": "Alessandria",
+        "text": "Alessandria is crossed by the Tanaro River."
+      }
+    ]
+  },
+  {
+    "qid": "gen102",
+    "difficulty": "medium",
+    "question": "Which university did the author of Harry Potter teach at?",
+    "gold_answer": "the University of Exeter",
+    "context": [
+      {
+        "title": "J. K. Rowling",
+        "text": "J. K. Rowling wrote Harry Potter and taught at the University of Exeter."
+      },
+      {
+        "title": "Harry Potter",
+        "text": "Harry Potter was written by J. K. Rowling."
+      }
+    ]
+  },
+  {
+    "qid": "gen103",
+    "difficulty": "hard",
+    "question": "What river flows through the city where the author of Harry Potter was born?",
+    "gold_answer": "the River Frome",
+    "context": [
+      {
+        "title": "J. K. Rowling",
+        "text": "J. K. Rowling, the author of Harry Potter, was born in Yate."
+      },
+      {
+        "title": "Yate",
+        "text": "Yate is crossed by the River Frome."
+      }
+    ]
+  },
+  {
+    "qid": "gen104",
+    "difficulty": "medium",
+    "question": "What instrument did the composer of The Four Seasons mainly play?",
+    "gold_answer": "violin",
+    "context": [
+      {
+        "title": "The Four Seasons",
+        "text": "The Four Seasons was composed by Antonio Vivaldi."
+      },
+      {
+        "title": "Antonio Vivaldi",
+        "text": "Antonio Vivaldi mainly played the violin."
+      }
+    ]
+  },
+  {
+    "qid": "gen105",
+    "difficulty": "medium",
+    "question": "What instrument did the composer of the Nocturnes mainly play?",
+    "gold_answer": "piano",
+    "context": [
+      {
+        "title": "the Nocturnes",
+        "text": "the Nocturnes was composed by Frederic Chopin."
+      },
+      {
+        "title": "Frederic Chopin",
+        "text": "Frederic Chopin mainly played the piano."
+      }
+    ]
+  },
+  {
+    "qid": "gen106",
+    "difficulty": "medium",
+    "question": "What instrument did the composer of the 24 Caprices mainly play?",
+    "gold_answer": "violin",
+    "context": [
+      {
+        "title": "the 24 Caprices",
+        "text": "the 24 Caprices was composed by Niccolo Paganini."
+      },
+      {
+        "title": "Niccolo Paganini",
+        "text": "Niccolo Paganini mainly played the violin."
+      }
+    ]
+  },
+  {
+    "qid": "gen107",
+    "difficulty": "medium",
+    "question": "What instrument did the composer of the Clarinet Concerto mainly play?",
+    "gold_answer": "piano",
+    "context": [
+      {
+        "title": "the Clarinet Concerto",
+        "text": "the Clarinet Concerto was composed by Wolfgang Amadeus Mozart."
+      },
+      {
+        "title": "Wolfgang Amadeus Mozart",
+        "text": "Wolfgang Amadeus Mozart mainly played the piano."
+      }
+    ]
+  },
+  {
+    "qid": "gen108",
+    "difficulty": "medium",
+    "question": "What instrument did the composer of the Bach Cello Suites recordings mainly play?",
+    "gold_answer": "cello",
+    "context": [
+      {
+        "title": "the Bach Cello Suites recordings",
+        "text": "the Bach Cello Suites recordings was composed by Pablo Casals."
+      },
+      {
+        "title": "Pablo Casals",
+        "text": "Pablo Casals mainly played the cello."
+      }
+    ]
+  },
+  {
+    "qid": "gen109",
+    "difficulty": "medium",
+    "question": "What instrument did the composer of What a Wonderful World mainly play?",
+    "gold_answer": "trumpet",
+    "context": [
+      {
+        "title": "What a Wonderful World",
+        "text": "What a Wonderful World was composed by Louis Armstrong."
+      },
+      {
+        "title": "Louis Armstrong",
+        "text": "Louis Armstrong mainly played the trumpet."
+      }
+    ]
+  },
+  {
+    "qid": "gen110",
+    "difficulty": "hard",
+    "question": "In which city is the museum that houses the Mona Lisa located?",
+    "gold_answer": "Paris",
+    "context": [
+      {
+        "title": "the Mona Lisa",
+        "text": "the Mona Lisa was painted by Leonardo da Vinci and is housed in the Louvre."
+      },
+      {
+        "title": "the Louvre",
+        "text": "the Louvre is located in Paris."
+      }
+    ]
+  },
+  {
+    "qid": "gen111",
+    "difficulty": "hard",
+    "question": "In which city is the museum that houses The Starry Night located?",
+    "gold_answer": "New York City",
+    "context": [
+      {
+        "title": "The Starry Night",
+        "text": "The Starry Night was painted by Vincent van Gogh and is housed in the Museum of Modern Art."
+      },
+      {
+        "title": "the Museum of Modern Art",
+        "text": "the Museum of Modern Art is located in New York City."
+      }
+    ]
+  },
+  {
+    "qid": "gen112",
+    "difficulty": "hard",
+    "question": "In which city is the museum that houses Girl with a Pearl Earring located?",
+    "gold_answer": "The Hague",
+    "context": [
+      {
+        "title": "Girl with a Pearl Earring",
+        "text": "Girl with a Pearl Earring was painted by Johannes Vermeer and is housed in the Mauritshuis."
+      },
+      {
+        "title": "the Mauritshuis",
+        "text": "the Mauritshuis is located in The Hague."
+      }
+    ]
+  },
+  {
+    "qid": "gen113",
+    "difficulty": "hard",
+    "question": "In which city is the museum that houses Las Meninas located?",
+    "gold_answer": "Madrid",
+    "context": [
+      {
+        "title": "Las Meninas",
+        "text": "Las Meninas was painted by Diego Velazquez and is housed in the Museo del Prado."
+      },
+      {
+        "title": "the Museo del Prado",
+        "text": "the Museo del Prado is located in Madrid."
+      }
+    ]
+  },
+  {
+    "qid": "gen114",
+    "difficulty": "hard",
+    "question": "In which city is the museum that houses The Birth of Venus located?",
+    "gold_answer": "Florence",
+    "context": [
+      {
+        "title": "The Birth of Venus",
+        "text": "The Birth of Venus was painted by Sandro Botticelli and is housed in the Uffizi Gallery."
+      },
+      {
+        "title": "the Uffizi Gallery",
+        "text": "the Uffizi Gallery is located in Florence."
+      }
+    ]
+  },
+  {
+    "qid": "gen115",
+    "difficulty": "medium",
+    "question": "In addition to physics, what field did the scientist behind the three laws of motion work in?",
+    "gold_answer": "mathematics",
+    "context": [
+      {
+        "title": "the three laws of motion",
+        "text": "the three laws of motion is credited to Isaac Newton."
+      },
+      {
+        "title": "Isaac Newton",
+        "text": "Besides physics, Isaac Newton also worked in mathematics."
+      }
+    ]
+  },
+  {
+    "qid": "gen116",
+    "difficulty": "medium",
+    "question": "In addition to physics, what field did the scientist behind the theory of relativity work in?",
+    "gold_answer": "philosophy of science",
+    "context": [
+      {
+        "title": "the theory of relativity",
+        "text": "the theory of relativity is credited to Albert Einstein."
+      },
+      {
+        "title": "Albert Einstein",
+        "text": "Besides physics, Albert Einstein also worked in philosophy of science."
+      }
+    ]
+  },
+  {
+    "qid": "gen117",
+    "difficulty": "medium",
+    "question": "In addition to physics, what field did the scientist behind research on radioactivity work in?",
+    "gold_answer": "chemistry",
+    "context": [
+      {
+        "title": "research on radioactivity",
+        "text": "research on radioactivity is credited to Marie Curie."
+      },
+      {
+        "title": "Marie Curie",
+        "text": "Besides physics, Marie Curie also worked in chemistry."
+      }
+    ]
+  },
+  {
+    "qid": "gen118",
+    "difficulty": "medium",
+    "question": "In addition to physics, what field did the scientist behind Pascal's principle of fluid pressure work in?",
+    "gold_answer": "mathematics",
+    "context": [
+      {
+        "title": "Pascal's principle of fluid pressure",
+        "text": "Pascal's principle of fluid pressure is credited to Blaise Pascal."
+      },
+      {
+        "title": "Blaise Pascal",
+        "text": "Besides physics, Blaise Pascal also worked in mathematics."
+      }
+    ]
+  },
+  {
+    "qid": "gen119",
+    "difficulty": "medium",
+    "question": "In addition to physics, what field did the scientist behind the Turing machine concept work in?",
+    "gold_answer": "cryptanalysis",
+    "context": [
+      {
+        "title": "the Turing machine concept",
+        "text": "the Turing machine concept is credited to Alan Turing."
+      },
+      {
+        "title": "Alan Turing",
+        "text": "Besides physics, Alan Turing also worked in cryptanalysis."
+      }
+    ]
+  },
+  {
+    "qid": "gen120",
+    "difficulty": "hard",
+    "question": "What river flows through the capital of the country where the composer Edvard Grieg was born?",
+    "gold_answer": "Akerselva",
+    "context": [
+      {
+        "title": "Edvard Grieg",
+        "text": "Edvard Grieg, the composer, was born in the city of Bergen."
+      },
+      {
+        "title": "Bergen",
+        "text": "Bergen lies beside the Byfjorden inlet."
+      },
+      {
+        "title": "Norway",
+        "text": "The capital of Norway is Oslo."
+      },
+      {
+        "title": "Oslo",
+        "text": "The Akerselva river flows through Oslo."
+      }
+    ]
+  },
+  {
+    "qid": "gen121",
+    "difficulty": "hard",
+    "question": "Among the countries Austria borders, which one does NOT use the euro?",
+    "gold_answer": "Switzerland",
+    "context": [
+      {
+        "title": "Austria",
+        "text": "Austria borders Germany, Italy, and Switzerland."
+      },
+      {
+        "title": "Germany",
+        "text": "Germany uses the euro."
+      },
+      {
+        "title": "Italy",
+        "text": "Italy uses the euro."
+      },
+      {
+        "title": "Switzerland",
+        "text": "Switzerland uses the Swiss franc, not the euro."
+      }
+    ]
+  },
+  {
+    "qid": "gen122",
+    "difficulty": "hard",
+    "question": "Which river is the second longest in the list of South American rivers below?",
+    "gold_answer": "Parana",
+    "context": [
+      {
+        "title": "Amazon",
+        "text": "The Amazon is about 6400 km long."
+      },
+      {
+        "title": "Parana",
+        "text": "The Parana is about 4880 km long."
+      },
+      {
+        "title": "Madeira",
+        "text": "The Madeira is about 3250 km long."
+      }
+    ]
+  },
+  {
+    "qid": "gen123",
+    "difficulty": "hard",
+    "question": "In which mountain range is the highest peak of the country whose capital is Quito?",
+    "gold_answer": "the Andes",
+    "context": [
+      {
+        "title": "Quito",
+        "text": "Quito is the capital of Ecuador and sits near the Pichincha volcano."
+      },
+      {
+        "title": "Ecuador",
+        "text": "The highest peak in Ecuador is Chimborazo."
+      },
+      {
+        "title": "Chimborazo",
+        "text": "Chimborazo is part of the Andes."
+      }
+    ]
+  },
+  {
+    "qid": "gen124",
+    "difficulty": "hard",
+    "question": "Between the authors of 'War and Peace' and 'Crime and Punishment', who was born first?",
+    "gold_answer": "Fyodor Dostoevsky",
+    "context": [
+      {
+        "title": "War and Peace",
+        "text": "War and Peace was written by Leo Tolstoy, who was born in 1828."
+      },
+      {
+        "title": "Crime and Punishment",
+        "text": "Crime and Punishment was written by Fyodor Dostoevsky, who was born in 1821."
+      }
+    ]
+  },
+  {
+    "qid": "gen125",
+    "difficulty": "hard",
+    "question": "Which of these three scientists did NOT win a Nobel Prize: Marie Curie, Albert Einstein, or Dmitri Mendeleev?",
+    "gold_answer": "Dmitri Mendeleev",
+    "context": [
+      {
+        "title": "Marie Curie",
+        "text": "Marie Curie won the Nobel Prize in Physics in 1903 and in Chemistry in 1911."
+      },
+      {
+        "title": "Albert Einstein",
+        "text": "Albert Einstein won the Nobel Prize in Physics in 1921."
+      },
+      {
+        "title": "Dmitri Mendeleev",
+        "text": "Dmitri Mendeleev was never awarded a Nobel Prize."
+      }
+    ]
+  },
+  {
+    "qid": "gen126",
+    "difficulty": "hard",
+    "question": "How many years passed between the founding of Apple and the release of the first iPhone?",
+    "gold_answer": "31 years",
+    "context": [
+      {
+        "title": "Apple",
+        "text": "Apple was founded in 1976."
+      },
+      {
+        "title": "iPhone",
+        "text": "Apple released the first iPhone in 2007."
+      }
+    ]
+  },
+  {
+    "qid": "gen127",
+    "difficulty": "hard",
+    "question": "What is the capital of the country that hosted the 2016 Summer Olympics?",
+    "gold_answer": "Brasilia",
+    "context": [
+      {
+        "title": "2016 Summer Olympics",
+        "text": "The 2016 Summer Olympics were held in Rio de Janeiro."
+      },
+      {
+        "title": "Rio de Janeiro",
+        "text": "Rio de Janeiro is a major city in Brazil, but it is not the capital."
+      },
+      {
+        "title": "Brazil",
+        "text": "The capital of Brazil is Brasilia."
+      }
+    ]
+  },
+  {
+    "qid": "gen128",
+    "difficulty": "hard",
+    "question": "What is the capital of the country whose largest city is Sydney?",
+    "gold_answer": "Canberra",
+    "context": [
+      {
+        "title": "Sydney",
+        "text": "Sydney is the largest city in Australia, but it is not its capital."
+      },
+      {
+        "title": "Australia",
+        "text": "The capital of Australia is Canberra."
+      }
+    ]
+  },
+  {
+    "qid": "gen129",
+    "difficulty": "hard",
+    "question": "What is the capital of the country whose largest city is Istanbul?",
+    "gold_answer": "Ankara",
+    "context": [
+      {
+        "title": "Istanbul",
+        "text": "Istanbul is the largest city of Turkey, though it is not the capital."
+      },
+      {
+        "title": "Turkey",
+        "text": "The capital of Turkey is Ankara."
+      }
+    ]
+  },
+  {
+    "qid": "gen130",
+    "difficulty": "hard",
+    "question": "Which sea borders the western coast of the country whose largest city is Mumbai?",
+    "gold_answer": "the Arabian Sea",
+    "context": [
+      {
+        "title": "Mumbai",
+        "text": "Mumbai is the largest city of India."
+      },
+      {
+        "title": "India",
+        "text": "India's western coast lies along the Arabian Sea, while its eastern coast lies along the Bay of Bengal."
+      }
+    ]
+  },
+  {
+    "qid": "gen131",
+    "difficulty": "hard",
+    "question": "Which of these countries does NOT border France: Spain, Germany, or Portugal?",
+    "gold_answer": "Portugal",
+    "context": [
+      {
+        "title": "France",
+        "text": "France borders both Spain and Germany."
+      },
+      {
+        "title": "Portugal",
+        "text": "Portugal borders only Spain."
+      }
+    ]
+  },
+  {
+    "qid": "gen132",
+    "difficulty": "hard",
+    "question": "What is the longest river on the continent where Egypt is located?",
+    "gold_answer": "the Nile",
+    "context": [
+      {
+        "title": "Egypt",
+        "text": "Egypt is located on the continent of Africa."
+      },
+      {
+        "title": "Africa",
+        "text": "The longest river in Africa is the Nile; the Congo is the second longest."
+      }
+    ]
+  },
+  {
+    "qid": "gen133",
+    "difficulty": "hard",
+    "question": "In the list below, which mountain is the third highest?",
+    "gold_answer": "Kangchenjunga",
+    "context": [
+      {
+        "title": "Mount Everest",
+        "text": "Mount Everest is 8849 m tall."
+      },
+      {
+        "title": "K2",
+        "text": "K2 is 8611 m tall."
+      },
+      {
+        "title": "Kangchenjunga",
+        "text": "Kangchenjunga is 8586 m tall."
+      },
+      {
+        "title": "Lhotse",
+        "text": "Lhotse is 8516 m tall."
+      }
+    ]
+  },
+  {
+    "qid": "gen134",
+    "difficulty": "hard",
+    "question": "Which was completed first: the Eiffel Tower or the Statue of Liberty?",
+    "gold_answer": "the Statue of Liberty",
+    "context": [
+      {
+        "title": "Statue of Liberty",
+        "text": "The Statue of Liberty was completed in 1886."
+      },
+      {
+        "title": "Eiffel Tower",
+        "text": "The Eiffel Tower was completed in 1889."
+      }
+    ]
+  },
+  {
+    "qid": "gen135",
+    "difficulty": "hard",
+    "question": "Who directly succeeded the first President of the United States?",
+    "gold_answer": "John Adams",
+    "context": [
+      {
+        "title": "George Washington",
+        "text": "George Washington was the first President of the United States."
+      },
+      {
+        "title": "John Adams",
+        "text": "John Adams directly succeeded George Washington as president."
+      },
+      {
+        "title": "Thomas Jefferson",
+        "text": "Thomas Jefferson became the third president, after John Adams."
+      }
+    ]
+  },
+  {
+    "qid": "gen136",
+    "difficulty": "hard",
+    "question": "Which ocean borders the eastern coast of the country whose capital is Wellington?",
+    "gold_answer": "the Pacific Ocean",
+    "context": [
+      {
+        "title": "Wellington",
+        "text": "Wellington is the capital of New Zealand."
+      },
+      {
+        "title": "New Zealand",
+        "text": "New Zealand's eastern coast faces the Pacific Ocean, while the Tasman Sea lies to its west."
+      }
+    ]
+  },
+  {
+    "qid": "gen137",
+    "difficulty": "hard",
+    "question": "Which of these three languages is NOT a Romance language: Romanian, Romansh, or Romani?",
+    "gold_answer": "Romani",
+    "context": [
+      {
+        "title": "Romanian",
+        "text": "Romanian is a Romance language."
+      },
+      {
+        "title": "Romansh",
+        "text": "Romansh is a Romance language spoken in Switzerland."
+      },
+      {
+        "title": "Romani",
+        "text": "Romani is an Indo-Aryan language, not a Romance language."
+      }
+    ]
+  },
+  {
+    "qid": "gen138",
+    "difficulty": "hard",
+    "question": "What instrument was the composer of the opera 'The Magic Flute' a virtuoso on?",
+    "gold_answer": "piano",
+    "context": [
+      {
+        "title": "The Magic Flute",
+        "text": "The Magic Flute is an opera composed by Wolfgang Amadeus Mozart."
+      },
+      {
+        "title": "Wolfgang Amadeus Mozart",
+        "text": "Mozart was a virtuoso on the piano."
+      }
+    ]
+  },
+  {
+    "qid": "gen139",
+    "difficulty": "hard",
+    "question": "What is the capital of the country whose currency is the yen, not the city with the largest population there?",
+    "gold_answer": "Tokyo",
+    "context": [
+      {
+        "title": "Yen",
+        "text": "The yen is the official currency of Japan."
+      },
+      {
+        "title": "Japan",
+        "text": "The capital of Japan is Tokyo, which is also its largest city."
+      }
+    ]
+  }
+]

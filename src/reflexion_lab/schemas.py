@@ -6,6 +6,21 @@ class ContextChunk(BaseModel):
     title: str
     text: str
 
+class LLMUsage(BaseModel):
+    """Token + latency thực đo được từ một lời gọi LLM (hoặc mock deterministic)."""
+    prompt_tokens: int = 0
+    completion_tokens: int = 0
+    total_tokens: int = 0
+    latency_ms: int = 0
+
+    def __add__(self, other: "LLMUsage") -> "LLMUsage":
+        return LLMUsage(
+            prompt_tokens=self.prompt_tokens + other.prompt_tokens,
+            completion_tokens=self.completion_tokens + other.completion_tokens,
+            total_tokens=self.total_tokens + other.total_tokens,
+            latency_ms=self.latency_ms + other.latency_ms,
+        )
+
 class QAExample(BaseModel):
     qid: str
     difficulty: Literal["easy", "medium", "hard"]
@@ -14,12 +29,23 @@ class QAExample(BaseModel):
     context: list[ContextChunk]
 
 class JudgeResult(BaseModel):
-    # TODO: Học viên định nghĩa các trường cần thiết cho kết quả đánh giá (score, reason, ...)
-    pass
+    """Kết quả chấm điểm của Evaluator cho một câu trả lời.
+
+    Đây là structured output (bonus `structured_evaluator`): ngoài điểm 0/1 còn
+    nêu rõ bằng chứng còn thiếu và các khẳng định sai để Reflector phân tích.
+    """
+    score: int = Field(..., ge=0, le=1, description="1 nếu đúng, 0 nếu sai (Exact-Match có chuẩn hoá).")
+    reason: str = Field(..., description="Giải thích ngắn gọn vì sao đúng/sai.")
+    missing_evidence: list[str] = Field(default_factory=list, description="Bằng chứng/hop còn thiếu để trả lời đầy đủ.")
+    spurious_claims: list[str] = Field(default_factory=list, description="Các khẳng định sai hoặc bịa trong câu trả lời.")
+    confidence: float = Field(default=1.0, ge=0.0, le=1.0, description="Độ tự tin của evaluator (0..1).")
 
 class ReflectionEntry(BaseModel):
-    # TODO: Học viên định nghĩa các trường cần thiết cho một mục reflection (attempt_id, lesson, strategy, ...)
-    pass
+    """Một mục self-reflection do Reflector tạo ra sau một lần trả lời sai."""
+    attempt_id: int = Field(..., description="Lần thử thứ mấy đã sinh ra reflection này.")
+    failure_reason: str = Field(..., description="Vì sao lần thử đó sai (lấy từ JudgeResult.reason).")
+    lesson: str = Field(..., description="Bài học rút ra, diễn đạt tổng quát.")
+    next_strategy: str = Field(..., description="Chiến thuật cụ thể cho lần thử kế tiếp.")
 
 class AttemptTrace(BaseModel):
     attempt_id: int
